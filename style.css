@@ -17,3 +17,18 @@
     font-family: var(--font-family);
 }
 
+body {
+   min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+}
+
+header nav,
+header .auth {
+    display:none;
+}
+
