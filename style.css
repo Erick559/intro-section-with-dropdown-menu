@@ -42,7 +42,7 @@ header .auth {
 
 .login-button,
 .register-button {
-    background: var(--bg-primary);
+    background:none;
     color:var(--font-color-primary);
     font-size: 15px;
 }
@@ -272,7 +272,7 @@ header .auth {
 
     .content {
         align-items: start;
-        gap:40px;
+        gap:20px;
     }
 
     .content h1{
@@ -283,6 +283,27 @@ header .auth {
     .content p {
         text-align: left;
         width:45ch;
+    }
+
+    .nav-list-item.active{
+        margin:0;
+    }
+
+    .nav-list-item-list.features{
+        top:30px;
+        left:-100px;
+    }
+
+    .nav-list-item-list.company{
+        top:30px;
+        left:-5px;
+    }
+
+    .nav-list-item-list {
+        background:white;
+        padding:20px 30px;
+        border-radius: 15px;
+        -webkit-box-shadow: -2px 0px 29px 5px rgba(0,0,0,0.2);
     }
 }
 
