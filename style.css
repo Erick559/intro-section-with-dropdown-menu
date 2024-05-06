@@ -19,6 +19,9 @@
     outline:none;
     list-style: none;
 }
+button {
+    cursor: pointer;
+}
 
 body {
    min-height: 100vh;
