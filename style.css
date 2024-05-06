@@ -29,6 +29,7 @@ body {
 
 header {
     display: flex;
+    gap:50px;
     justify-content: space-between;
     padding:20px;
 }
