@@ -14,10 +14,12 @@
       <img src="images/logo.svg" alt="Snap Logo">
     </div>
     <nav class="navigation">
-      <div>
-        <p>Features</p>
-        <img src="images/icon-arrow-down.svg" alt="arrow down icon">
-        <div>
+      <div class="nav-list-item">
+        <div class="nav-list-item-header">
+          <p>Features</p>
+          <img src="images/icon-arrow-down.svg" alt="arrow down icon">  
+        </div>
+        <div class="nav-list-item-list">
           <div class="menu-list">
             <img src="images/icon-todo.svg" alt="Todo List Icon">
             <p>Todo List</p>
@@ -36,22 +38,25 @@
           </div>
         </div>
       </div>
-      <div>
-        <p>Company</p>
-        <div class="menu-list">
-          <div class="menu-item">
+      <div class="nav-list-item">
+        <div class="nav-list-item-header">
+          <p>Company</p>
+          <img src="images/icon-arrow-down.svg" alt="arrow down icon">  
+        </div>
+        <div class="nav-list-item-list">
+          <div class="menu-list">
             <p>History</p>
           </div>
-          <div class="menu-item">
-            <p>Our Team</p>
+          <div class="menu-list">
+            <p>Our team</p>
           </div>
-          <div class="menu-item">
+          <div class="menu-list">
             <p>Blog</p>
           </div>
         </div>
       </div>
-      <p>Careers</p>
-      <p>About</p>
+      <p class="nav-item">Careers</p>
+      <p class="nav-item">About</p>
     </nav>
     <div class="auth">
       <button class="login-button">Login</button>
@@ -144,11 +149,10 @@
       </div>
       <p class="nav-item">Careers</p>
       <p class="nav-item">About</p>
-    </nav>
+    </div>
     <div class="auth">
       <button class="login-button">Login</button>
       <button class="register-button">Register</button>
-    </div>
     </div>
   </div>
 </body>
