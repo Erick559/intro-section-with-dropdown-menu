@@ -218,6 +218,39 @@ header .auth {
     cursor: pointer;
 }
 
+@media screen and (min-width:900px) {
+    header {
+        padding:30px;
+    }
+
+    .hamburger-menu,
+    .overlay.active,
+    .mobile-nav.active {
+        display: none;
+    }
+    
+    header nav,
+    header .auth {
+        display:flex;
+        gap:20px;
+    }
+
+    header nav {
+        flex-grow: 1;
+    }
+
+    header nav p {
+        color:var(--font-color-primary)
+    }
+
+    header nav p:hover {
+        color:var(--font-color-secondary)
+    }
+
+    .register-button {
+        padding:10px 20px;
+    }
+}
 
 
 
