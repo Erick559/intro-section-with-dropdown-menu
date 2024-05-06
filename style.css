@@ -30,7 +30,7 @@ body {
 
 header {
     display: flex;
-    gap:50px;
+    gap:70px;
     justify-content: space-between;
     padding:20px;
 }
