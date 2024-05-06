@@ -35,6 +35,24 @@ header .auth {
     display:none;
 }
 
+.login-button,
+.register-button {
+    background: var(--bg-primary);
+    color:var(--font-color-primary);
+    font-size: 15px;
+}
+
+.login-button:hover,
+.register-button:hover{
+    color:var(--font-color-secondary);
+}
+
+.register-button {
+    border:1px solid var(--font-color-secondary);
+    padding:10px 50px;
+    border-radius: 10px;
+}
+
 .hero-image-wrapper {
     width:100%;
 }
