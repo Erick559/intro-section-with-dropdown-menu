@@ -202,7 +202,8 @@ header .auth {
 .nav-item,
 .menu-list,
 .nav-list-item-header,
-.mobile-nav .close-menu {
+.mobile-nav .close-menu,
+.hamburger-menu {
     cursor: pointer;
 }
 
