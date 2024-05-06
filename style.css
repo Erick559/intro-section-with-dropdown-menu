@@ -159,6 +159,10 @@ header .auth {
     color:var(--font-color-primary)
 }
 
+.nav-list p:hover{
+    color:var(--font-color-secondary)
+}
+
 .nav-list-item {
     display: inline-block;
     position: relative;
